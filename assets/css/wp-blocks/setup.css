@@ -1,0 +1,27 @@
+.wp-block-group {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 80px 72px;
+  max-width: 1280px;
+} 
+
+
+.wp-block-group__inner-container {
+  background: #FAFAFA;
+  display: flex;
+  flex-direction: column;
+  padding: 80px 72px;
+  background: #FAFAFA;
+}
+
+.wp-block-columns {
+  gap: 80px;
+}
+
+.wp-block-image > img {
+  object-fit: cover;
+  width: 488px;
+  height: 380px;
+  border-radius: 16px;
+} 

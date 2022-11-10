@@ -1,0 +1,16 @@
+/*
+Theme Name: immob-theme-wp
+*/
+
+
+
+
+@import './assets/css/reset.css';
+@import './assets/css/menu.css';
+@import './assets/css/footer.css';
+@import './assets/css/global.css';
+@import './assets/css/pages.css';
+@import './assets/css/wp-blocks/wp-blocks.css';
+
+
+/*test css*/

@@ -1,0 +1,50 @@
+/* only to make a teste */
+/* MENU */
+.navbar_menu {
+  margin-bottom: 2%;
+  margin-top: 2%;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.navbar_menu img {
+  position: absolute;
+  left: 24px;
+}
+
+.navbar_menu {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.navbar_menu ul {
+  display: flex;
+  justify-content: flex-end;
+  gap: 24px;
+}
+
+ul,
+li,
+ol,
+a {
+  list-style: none;
+  text-decoration: none;
+}
+
+a {
+  color: #666666;
+}
+
+.button-menu {
+  margin-left: 1%;
+  background-color: #3854b5;
+  padding: 8px 24px;
+  gap: 8px;
+  border: none;
+  border-radius: 80px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+}
