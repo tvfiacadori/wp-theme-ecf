@@ -18,13 +18,14 @@
 <body>
 
   <div class="container">
-    <div class="navbar_menu">
-      <img src="/wp-content/themes/immob-theme-wp/assets/img/Logo.png" alt="logo_immob">
-      <?php wp_nav_menu(['theme_location' => 'menu-header']) ?>
+    <div class="menu_container">
+      <div class="navbar_menu">
+        <img src="/wp-content/themes/immob-theme-wp/assets/img/Logo.png" alt="logo_immob">
+        <?php wp_nav_menu(['theme_location' => 'menu-header']) ?>
 
-      <button class="button-menu" type="button">
-        Get a Quote
-      </button>
-
+        <button class="button-menu" type="button">
+          Get a Quote
+        </button>
+      </div>
 
     </div>

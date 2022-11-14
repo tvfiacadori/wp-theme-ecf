@@ -1,10 +1,18 @@
 /* only to make a teste */
 /* MENU */
+
+.menu_container {
+  top: 0;
+  position: sticky;
+
+}
+
 .navbar_menu {
   margin-bottom: 2%;
   margin-top: 2%;
   margin-left: 2%;
   margin-right: 2%;
+  
 }
 
 .navbar_menu img {

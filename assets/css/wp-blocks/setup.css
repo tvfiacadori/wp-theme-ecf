@@ -1,18 +1,22 @@
-.wp-block-group {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 80px 72px;
-  max-width: 1280px;
-} 
+
+/*3 ultimos H */
+
+.has-text-align-center {
+  text-align: center;
+}
+.has-text-align-right {
+  text-align: right;
+}
+.has-text-align-left {
+  text-align: left;
+}
 
 
+/* Duas fotosd com texto */
 .wp-block-group__inner-container {
-  background: #FAFAFA;
   display: flex;
   flex-direction: column;
   padding: 80px 72px;
-  background: #FAFAFA;
 }
 
 .wp-block-columns {
@@ -25,3 +29,37 @@
   height: 380px;
   border-radius: 16px;
 } 
+
+
+/* texto h3 plus p "Easy Step to buy */
+.wp-container-11 {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 72px;
+  max-width: 1280px;
+}
+
+/* 1234 view listing*/
+
+.wp-container-16 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 16px;
+  max-width: 1280px;
+}
+
+.is-layout-flow .size-full > img {
+  object-fit: cover;
+  width: 56px;
+  height: 56px;
+}
+
+/* button see our FAQ*/
+
+.wp-container-20 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5%;
+}

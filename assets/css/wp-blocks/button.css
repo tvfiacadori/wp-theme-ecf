@@ -1,14 +1,18 @@
 .wp-block-button {
   display: inline-block;
   background-color: #3854b5;
+  position: relative;
 }
-.wp-block-button__link .wp-element-button, a {
+.is-layout-flex a {
   color: white;
 }
-.wp-block-button__link a img {
+
+.wp-block-button__link > img {
   vertical-align: middle;
   margin-left: 8px;
 }
+
+
 .is-layout-flex, .has-small-font-size {
   padding: 4px 24px;
   border-radius: 80px;
@@ -39,12 +43,12 @@
   background-color: white;
   border: 1px solid #666666;
 }
-.wp-block-button__link, a {
+.wp-block-button.is-style-outline a {
   color: black;
   font-weight: 600;
 }
-
-.wp-block-button_link::before {
+/* perguntar para seb como ele conseguiu separar o branco do preto*/
+.wp-block-button__link::before {
   content: "";
   display: block;
   width: 100%;
